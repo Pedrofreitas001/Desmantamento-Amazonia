@@ -32,7 +32,7 @@ Queda consistente nas taxas anuais, indicando forte impacto de políticas de con
 **3. Retomada Gradual (2012–2020)**  
 Reversão parcial da tendência, sugerindo pressões estruturais persistentes.
 
-![Série Temporal do Desmatamento](/grafico-1.PNG)
+![Série Temporal do Desmatamento](imagens//grafico-1.PNG)
 
 ## Concentração Regional
 
@@ -46,7 +46,7 @@ A maior parte está concentrada em poucos estados:
 
 Essa distribuição evidencia a influência de fatores econômicos regionais, uso do solo e governança ambiental.
 
-![Evolução Temporal](/grafico-2.png)
+![Evolução Temporal](imagens//grafico-2.png)
 
 ## Interpretação Analítica
 
@@ -64,8 +64,8 @@ A redução observada após 2004 demonstra que intervenções institucionais pod
 - Estratégias direcionadas a estados críticos tendem a ser mais eficazes  
 - A volatilidade histórica sugere necessidade de monitoramento contínuo  
 
-![Comparação por Estado](/grafico-3.png)
-![Mapa Regional](/grafico-4.png)
+![Comparação por Estado](imagens//grafico-3.png)
+![Mapa Regional](imagens//grafico-4.png)
 
 
 ## Conclusão
