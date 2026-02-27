@@ -43,7 +43,7 @@ A série histórica revela três fases distintas:
 
 A análise temporal indica que o desmatamento apresenta comportamento cíclico e sensível a mudanças institucionais.
 
-![Medias](imagens/grafico-5.png)
+![Medias](imagens/grafico-4.png)
 
 ### Tendência Estrutural vs Movimentos Recentes
 
@@ -92,7 +92,7 @@ Isso indica que políticas territorialmente direcionadas tendem a gerar maior im
 
 A espacialização reforça o padrão de concentração regional, evidenciando áreas críticas recorrentes ao longo do tempo.
 
-![Mapa Regional](imagens/grafico-4.png)
+![Mapa Regional](imagens/grafico-5.png)
 
 ---
 
