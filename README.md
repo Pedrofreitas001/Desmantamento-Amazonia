@@ -1,113 +1,113 @@
-# Desmatamento na Amazônia Legal  
-## Análise Histórica e Regional com Dados PRODES/INPE
+# Deforestation in the Legal Amazon  
+## Historical and Regional Analysis with PRODES/INPE Data
 
-Análise orientada a dados sobre a evolução do desmatamento na Amazônia Legal ao longo de mais de três décadas.  
-O objetivo é transformar uma série histórica extensa em uma leitura quantitativa, estruturada e interpretável.
-
----
-
-## Base de Dados
-
-- Fonte: PRODES / INPE  
-- Periodicidade: Anual  
-- Cobertura: Estados da Amazônia Legal  
-- Período analisado: 1990–2025  
+A data-driven analysis of the evolution of deforestation in the Legal Amazon over more than three decades.  
+The objective is to transform an extensive historical series into a **quantitative, structured, and interpretable analysis**.
 
 ---
 
-## Escala do Problema
+## Data Source
 
-Entre 1990 e 2025, a Amazônia Legal perdeu aproximadamente **503 mil km² de cobertura florestal**.
-
-Esse volume representa cerca de 10% da área total da região, evidenciando a magnitude estrutural do fenômeno.
-
----
-
-## Dinâmica Temporal
-
-![Série Temporal do Desmatamento](imagens/grafico-1.PNG)
-
-A série histórica revela três fases distintas:
-
-### 1. Expansão (1990–2004)
-- Crescimento acelerado das taxas anuais  
-- Pico histórico em 2004  
-
-### 2. Redução Sustentada (2004–2012)
-- Queda consistente nas taxas  
-- Impacto relevante de políticas de controle e fiscalização  
-
-### 3. Retomada Gradual (2012–2020)
-- Reversão parcial da tendência  
-- Indícios de pressões estruturais persistentes  
-
-A análise temporal indica que o desmatamento apresenta comportamento cíclico e sensível a mudanças institucionais.
-
-![Medias](imagens/grafico-4.png)
-
-### Tendência Estrutural vs Movimentos Recentes
-
-Para reduzir a volatilidade anual, foram aplicadas duas métricas de suavização:
-
-- **SMA (5 anos)** → evidencia a tendência estrutural de médio prazo  
-- **EMA (3 anos)** → destaca acelerações e reversões recentes  
-
-A SMA mostra a trajetória dominante da série, enquanto a EMA captura mudanças mais rápidas no ritmo do desmatamento.  
-A combinação das duas permite identificar possíveis mudanças de regime com maior clareza.
+- Source: PRODES / INPE  
+- Frequency: Annual  
+- Coverage: States of the Legal Amazon  
+- Period analyzed: 1990–2025  
 
 ---
 
-## Concentração Regional
+## Scale of the Problem
 
-![Comparação por Estado](imagens/grafico-3.png)
+Between 1990 and 2025, the Legal Amazon lost approximately **503 thousand km² of forest cover**.
 
-O desmatamento não ocorre de forma homogênea.
+This volume represents roughly **10% of the region's total area**, highlighting the structural magnitude of the phenomenon.
 
-Estados com maior contribuição acumulada:
+---
+
+## Temporal Dynamics
+
+![Deforestation Time Series](imagens/grafico-1.PNG)
+
+The historical series reveals **three distinct phases**:
+
+### 1. Expansion (1990–2004)
+- Rapid growth in annual deforestation rates  
+- Historical peak in 2004  
+
+### 2. Sustained Reduction (2004–2012)
+- Consistent decline in deforestation rates  
+- Significant impact of environmental enforcement policies  
+
+### 3. Gradual Resurgence (2012–2020)
+- Partial reversal of the downward trend  
+- Evidence of persistent structural pressures  
+
+The temporal analysis suggests that deforestation follows a **cyclical pattern and is highly sensitive to institutional changes**.
+
+![Moving Averages](imagens/grafico-4.png)
+
+### Structural Trend vs Recent Movements
+
+To reduce annual volatility, two smoothing metrics were applied:
+
+- **SMA (5 years)** → highlights the medium-term structural trend  
+- **EMA (3 years)** → captures recent accelerations and reversals  
+
+The SMA reveals the dominant trajectory of the series, while the EMA highlights faster shifts in deforestation dynamics.  
+Combining both metrics allows potential **regime changes** to be identified more clearly.
+
+---
+
+## Regional Concentration
+
+![State Comparison](imagens/grafico-3.png)
+
+Deforestation does **not occur uniformly across the region**.
+
+States with the largest cumulative contribution:
 
 - Pará  
 - Mato Grosso  
 - Rondônia  
 
-Estados com menor participação relativa:
+States with relatively smaller participation:
 
 - Amapá  
 - Roraima  
 
-Essa concentração sugere forte influência de fatores econômicos regionais, estrutura fundiária e capacidade de fiscalização.
+This concentration suggests a strong influence of **regional economic drivers, land-use structure, and enforcement capacity**.
 
 ---
 
-## Distribuição Comparativa
+## Comparative Distribution
 
-A análise acumulada evidencia que poucos estados respondem por grande parte da perda florestal.
+The cumulative analysis shows that **a small number of states account for a large share of forest loss**.
 
-Isso indica que políticas territorialmente direcionadas tendem a gerar maior impacto do que intervenções uniformes.
+This indicates that **territorially targeted policies may produce stronger impacts than uniform interventions**.
 
-![Evolução por Estado](imagens/grafico-2.png)
-
----
-
-## Visualização Geográfica
-
-A espacialização reforça o padrão de concentração regional, evidenciando áreas críticas recorrentes ao longo do tempo.
-
-![Mapa Regional](imagens/grafico-5.png)
+![State Evolution](imagens/grafico-2.png)
 
 ---
 
-## Interpretação Analítica
+## Geographic Visualization
 
-Os dados indicam que intervenções regulatórias podem alterar significativamente a trajetória do desmatamento, como observado após 2004.  
+The spatial representation reinforces the pattern of regional concentration, highlighting **recurring critical areas over time**.
 
-No entanto, a retomada posterior evidencia que avanços ambientais podem ser reversíveis na ausência de políticas consistentes e monitoramento contínuo.
+![Regional Map](imagens/grafico-5.png)
 
 ---
 
-## Conclusão
+## Analytical Interpretation
 
-O desmatamento na Amazônia Legal não segue trajetória linear, mas ciclos de aceleração e contenção influenciados por fatores econômicos e regulatórios.
+The data suggests that **regulatory interventions can significantly alter deforestation trajectories**, as observed after 2004.
 
-A magnitude acumulada e a concentração regional reforçam a necessidade de políticas direcionadas e monitoramento permanente.
+However, the later resurgence indicates that **environmental gains may be reversible without consistent policies and continuous monitoring**.
 
-Este projeto demonstra como dados públicos podem ser organizados, tratados e analisados para gerar insights estruturados sobre desafios ambientais de larga escala.
+---
+
+## Conclusion
+
+Deforestation in the Legal Amazon does not follow a linear trajectory, but rather **cycles of acceleration and containment influenced by economic and regulatory factors**.
+
+The cumulative magnitude and regional concentration reinforce the importance of **targeted policies and permanent monitoring systems**.
+
+This project demonstrates how **public datasets can be organized, processed, and analyzed to generate structured insights about large-scale environmental challenges**.
